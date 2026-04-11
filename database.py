@@ -21,40 +21,31 @@ DB_CONFIG = {
 
 
 def get_connection():
-    """Hybrid Connection with UI Diagnostics"""
+    """Hybrid Connection with Method 3 (Compression) & Clean UI"""
     try:
-        # 1. Pull credentials (Local reads from .env, Cloud reads from Secrets)
         host = os.getenv("DB_HOST", "localhost")
         user = os.getenv("DB_USER", "root")
         password = os.getenv("DB_PASSWORD", "DB_Password")
         database = os.getenv("DB_NAME", "smartcampus_db")
         port = int(os.getenv("DB_PORT", 3306))
 
-        # 2. Setup standard arguments
         connection_args = {
             "host": host,
             "user": user,
             "password": password,
             "database": database,
             "port": port,
-            "compress": True
+            "compress": True # ✅ Method 3: Smaller packets = faster travel
         }
 
-        # 3. THE SMART SWITCH: Only use SSL if we are NOT on localhost
         if "localhost" not in host and "127.0.0.1" not in host:
-            # 🔥 THE FIX: Tell the connection exactly where the SSL certificates are
             connection_args["ssl_verify_cert"] = True
             connection_args["ssl_ca"] = certifi.where()
 
         conn = mysql.connector.connect(**connection_args)
         return conn
     except Exception as e:
-        # 🔥 THE MAGIC FIX: This prints the exact crash reason onto the website
-        try:
-            st.error(f"🚨 DATABASE CRASH REPORT: {e}")
-            st.info(f"Targeting Host: {host} on Port: {port}")
-        except:
-            pass
+        # Diagnostic popups removed for faster UI rendering
         print(f"❌ Connection Error: {e}")
         return None
 

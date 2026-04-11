@@ -19,18 +19,34 @@ DB_CONFIG = {
 
 
 def get_connection():
-    """Establishes and returns a database connection. Creates the database if it doesn't exist."""
+    """Hybrid Connection: Works on TiDB Cloud AND Local Laptop"""
     try:
-        conn = mysql.connector.connect(host=DB_CONFIG['host'], user=DB_CONFIG['user'], password=os.getenv("DB_PASSWORD"))
-        cursor = conn.cursor()
-        # Natively ensure the database exists
-        cursor.execute(f"CREATE DATABASE IF NOT EXISTS {DB_CONFIG['database']}")
-        conn.database = DB_CONFIG['database']
-        return conn
-    except Error as e:
-        print(f"Error connecting to MySQL: {e}")
-        return None
+        # 1. Pull credentials (Local reads from .env, Cloud reads from Secrets)
+        host = os.getenv("DB_HOST", "localhost")
+        user = os.getenv("DB_USER", "root")
+        password = os.getenv("DB_PASSWORD", "")
+        database = os.getenv("DB_NAME", "smartcampus")
+        port = int(os.getenv("DB_PORT", 3306))
 
+        # 2. Setup standard arguments
+        connection_args = {
+            "host": host,
+            "user": user,
+            "password": password,
+            "database": database,
+            "port": port
+        }
+
+        # 3. THE SMART SWITCH: Only use SSL if we are NOT on localhost
+        if "localhost" not in host and "127.0.0.1" not in host:
+            connection_args["ssl_verify_cert"] = True
+            # Optional: Some setups need connection_args["ssl_disabled"] = False
+
+        conn = mysql.connector.connect(**connection_args)
+        return conn
+    except Exception as e:
+        print(f"❌ Connection Error: {e}")
+        return None
 
 def init_db():
     """Initializes the required database schema with structured tables and concurrent session management."""

@@ -1,16 +1,17 @@
 import pdfplumber
 import spacy
 import re
-import json, os
+import json
+import os
 
-# Load the English NLP model
+# SECURE LOADING: The model is now pre-installed via requirements.txt on Streamlit Cloud.
+# This prevents the 'Permission Denied' error trying to write to read-only cloud folders.
 try:
     nlp = spacy.load("en_core_web_sm")
 except OSError:
-    print("Downloading English model for spaCy...")
-    from spacy.cli import download
-
-    download("en_core_web_sm")
+    # This fallback is strictly for local development on your laptop
+    print("Downloading English model for spaCy locally...")
+    os.system("python -m spacy download en_core_web_sm")
     nlp = spacy.load("en_core_web_sm")
 
 # 1. THE ANCHOR LISTS

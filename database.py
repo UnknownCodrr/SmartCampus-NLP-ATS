@@ -25,7 +25,7 @@ def get_connection():
         host = os.getenv("DB_HOST", "localhost")
         user = os.getenv("DB_USER", "root")
         password = os.getenv("DB_PASSWORD", "")
-        database = os.getenv("DB_NAME", "smartcampus")
+        database = os.getenv("DB_NAME", "smartcampus_db")
         port = int(os.getenv("DB_PORT", 3306))
 
         # 2. Setup standard arguments
@@ -48,23 +48,26 @@ def get_connection():
         print(f"❌ Connection Error: {e}")
         return None
 
+
 def init_db():
-    """Initializes the required database schema with structured tables and concurrent session management."""
+    """Initializes the complete database schema including ghost tables and admin setup."""
     conn = get_connection()
     if conn is None: return
     cursor = conn.cursor()
 
+    # 1. Users Table (Updated with 'admin' role)
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS users (
             id INT AUTO_INCREMENT PRIMARY KEY,
             name VARCHAR(100) NOT NULL,
             email VARCHAR(100) UNIQUE NOT NULL,
             password VARCHAR(255) NOT NULL,
-            role ENUM('student', 'teacher', 'coordinator') NOT NULL,
+            role ENUM('student', 'teacher', 'coordinator', 'admin') NOT NULL,
             must_change_pw BOOLEAN DEFAULT 0,
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         )
     """)
+
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS student_profiles (
             user_id INT PRIMARY KEY,
@@ -77,6 +80,7 @@ def init_db():
             FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
         )
     """)
+
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS student_skills (
             id INT AUTO_INCREMENT PRIMARY KEY,
@@ -85,6 +89,7 @@ def init_db():
             FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
         )
     """)
+
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS jobs (
             id INT AUTO_INCREMENT PRIMARY KEY,
@@ -105,6 +110,7 @@ def init_db():
             FOREIGN KEY (coordinator_id) REFERENCES users(id) ON DELETE CASCADE
         )
     """)
+
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS applications (
             id INT AUTO_INCREMENT PRIMARY KEY,
@@ -118,6 +124,7 @@ def init_db():
             FOREIGN KEY (job_id) REFERENCES jobs(id) ON DELETE CASCADE
         )
     """)
+
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS notifications (
             id INT AUTO_INCREMENT PRIMARY KEY,
@@ -138,7 +145,6 @@ def init_db():
         )
     """)
 
-    # --- NEW: Concurrent Session Management Table ---
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS active_sessions (
             session_token VARCHAR(255) PRIMARY KEY,
@@ -147,7 +153,67 @@ def init_db():
             FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
         )
     """)
-    # ------------------------------------------------
+
+    # ========================================================
+    # NEW: THE GHOST TABLES
+    # ========================================================
+
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS system_settings (
+            setting_key VARCHAR(50) PRIMARY KEY,
+            setting_value VARCHAR(50) NOT NULL
+        )
+    """)
+
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS announcements (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            coordinator_id INT,
+            message TEXT,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            FOREIGN KEY (coordinator_id) REFERENCES users(id) ON DELETE CASCADE
+        )
+    """)
+
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS helpdesk_tickets (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            student_id INT,
+            category VARCHAR(100),
+            message TEXT,
+            reply TEXT,
+            status VARCHAR(50) DEFAULT 'Open',
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            FOREIGN KEY (student_id) REFERENCES users(id) ON DELETE CASCADE
+        )
+    """)
+
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS registration_whitelist (
+            email VARCHAR(100) PRIMARY KEY
+        )
+    """)
+
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS whitelist_settings (
+            id INT PRIMARY KEY,
+            is_enabled BOOLEAN DEFAULT 0
+        )
+    """)
+
+    # ========================================================
+    # NEW: SYSTEM DEFAULTS & MASTER ADMIN
+    # ========================================================
+
+    # Initialize whitelist settings if empty (INSERT IGNORE prevents duplicates)
+    cursor.execute("INSERT IGNORE INTO whitelist_settings (id, is_enabled) VALUES (1, 0)")
+
+    # Create Master Admin if it doesn't exist
+    # Password is 'admin123' (Pre-hashed with SHA-256 to match your authentication logic)
+    cursor.execute("""
+        INSERT IGNORE INTO users (name, email, password, role, must_change_pw) 
+        VALUES ('System Admin', 'admin@its.edu', '240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9', 'admin', 0)
+    """)
 
     conn.commit()
     cursor.close()

@@ -74,10 +74,15 @@ def render_footer():
     with foot_col2:
         st.write("#### 📞 Reach Us")
         st.caption("📍 **Campus:** ITS Mohan Nagar, Ghaziabad, UP")
-        st.caption("✉️ **Email:** [redacted]")
+        st.caption("✉️ **Email:** support@its.edu.in")
     with foot_col3:
         st.write("#### 🛠️ System Info")
-        st.caption("👨‍💻 **Developed by:** Abhinav, Aryan, Manmohan")
+        st.markdown("""
+        **🧑‍💻 Developed by:**
+        * **Abhinav Nirwan** (Lead Architect)
+        * **Aryan** (Associate Developer)
+        * **Manmohan** (Data Analyst)
+        """)
 
 
 # ==========================================

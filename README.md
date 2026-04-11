@@ -21,7 +21,7 @@ SmartCampus is an end-to-end recruitment platform designed for institutional pla
 ![Student Jobs](assets/Student_Jobs.png)
 
 ### 4. Placement Cell Controls & Admin Settings
-![Coordinator View](assets/Coordinator_Post_Drives.png)
+![Coordinator View](assets/Coordinator_PostDrives.png)
 ![Admin View](assets/Admin_System_Settings.png)
 
 ## 🛠️ Tech Stack

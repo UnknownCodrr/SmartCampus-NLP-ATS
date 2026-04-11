@@ -7,3 +7,4 @@ requests
 pdfplumber
 spacy
 streamlit-lottie
+python-dotenv

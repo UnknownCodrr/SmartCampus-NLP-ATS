@@ -6,6 +6,7 @@ import random
 import re
 import os
 from dotenv import load_dotenv
+import streamlit as st
 
 load_dotenv()
 
@@ -19,7 +20,7 @@ DB_CONFIG = {
 
 
 def get_connection():
-    """Hybrid Connection: Works on TiDB Cloud AND Local Laptop"""
+    """Hybrid Connection with UI Diagnostics"""
     try:
         # 1. Pull credentials (Local reads from .env, Cloud reads from Secrets)
         host = os.getenv("DB_HOST", "localhost")
@@ -40,14 +41,18 @@ def get_connection():
         # 3. THE SMART SWITCH: Only use SSL if we are NOT on localhost
         if "localhost" not in host and "127.0.0.1" not in host:
             connection_args["ssl_verify_cert"] = True
-            # Optional: Some setups need connection_args["ssl_disabled"] = False
 
         conn = mysql.connector.connect(**connection_args)
         return conn
     except Exception as e:
+        # 🔥 THE MAGIC FIX: This prints the exact crash reason onto the website
+        try:
+            st.error(f"🚨 DATABASE CRASH REPORT: {e}")
+            st.info(f"Targeting Host: {host} on Port: {port}")
+        except:
+            pass
         print(f"❌ Connection Error: {e}")
         return None
-
 
 def init_db():
     """Initializes the complete database schema including ghost tables and admin setup."""

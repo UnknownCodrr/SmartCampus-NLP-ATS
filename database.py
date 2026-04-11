@@ -346,6 +346,7 @@ def get_coordinator_jobs(coordinator_id):
         conn.close()
 
 
+@st.cache_data(ttl=300)
 def get_all_jobs():
     """Returns a list of all job drives in the system."""
     conn = get_connection()
@@ -505,6 +506,7 @@ def get_student_applications(student_id):
         conn.close()
 
 
+@st.cache_data(ttl=300)
 def get_coordinator_analytics(coordinator_id):
     """Gathers and counts historical application and job stats for a coordinator."""
     conn = get_connection()
@@ -553,6 +555,7 @@ def update_student_links(user_id, linkedin, github):
         conn.close()
 
 
+@st.cache_data(ttl=300)
 def get_student_links(user_id):
     """Retrieves a student's LinkedIn and GitHub portfolio links."""
     conn = get_connection()
@@ -601,6 +604,7 @@ def delete_announcement(announcement_id):
         conn.close()
 
 
+@st.cache_data(ttl=300)
 def get_all_announcements():
     """Fetches all announcements, joining with the users table to get the coordinator name."""
     conn = get_connection()
@@ -628,6 +632,7 @@ def get_all_announcements():
         conn.close()
 
 
+@st.cache_data(ttl=600)
 def get_all_registered_students():
     """Fetches a list of all students for the admin view, using LEFT JOIN for data completeness."""
     conn = get_connection()
@@ -653,7 +658,7 @@ def get_all_registered_students():
 
 
 def get_applicant_count(job_id):
-    """Gathers applicant count usingaggregate SQL queries for resource-compliant retrieval."""
+    """Gathers applicant count using aggregate SQL queries for resource-compliant retrieval."""
     conn = get_connection()
     if not conn: return 0
     cursor = conn.cursor()
@@ -801,6 +806,7 @@ def notify_shortlisted_students(job_id, message):
         conn.close()
 
 
+@st.cache_data(ttl=600)
 def get_campus_skills_data():
     """Gathers and counts parsed resumes, utilizing aggregate SQL for optimal resource usage."""
     conn = get_connection()
@@ -817,6 +823,7 @@ def get_campus_skills_data():
         conn.close()
 
 
+@st.cache_data(ttl=600)
 def get_all_analytics():
     """Retrieves all application statuses, conforming to optimal aggregate query development standards."""
     conn = get_connection()
@@ -846,6 +853,7 @@ def get_all_analytics():
         conn.close()
 
 
+@st.cache_data(ttl=600)
 def get_hall_of_fame():
     """Gathers historical 'Placed' status using aggregate queries, ensuring compliant resource retrieval."""
     conn = get_connection()
@@ -944,6 +952,7 @@ def resolve_ticket(ticket_id, reply):
         conn.close()
 
 
+@st.cache_data(ttl=300)
 def get_student_skills_by_id(student_id):
     """Returns a student's extracted skills, conforming to compliant aggregate query standards."""
     conn = get_connection()
@@ -1023,6 +1032,7 @@ def save_interview_experience(application_id, feedback):
         conn.close()
 
 
+@st.cache_data(ttl=300)
 def get_all_interview_experiences():
     """ Joins tables with applications, conforming to standard resource optimization standards."""
     conn = get_connection()
@@ -1047,6 +1057,7 @@ def get_all_interview_experiences():
         conn.close()
 
 
+@st.cache_data(ttl=600)
 def get_placed_report_data():
     """ Joins tables with applications using aggregate queries to natively generate report data."""
     conn = get_connection()
@@ -1327,6 +1338,7 @@ def destroy_session(session_token):
 
 
 # --- NEW: Real-Time Platform Analytics for Login Dashboard ---
+@st.cache_data(ttl=600)
 def get_platform_stats():
     """Fetches live, real-time statistics from the MySQL database for the login page."""
     stats = {

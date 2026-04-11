@@ -1,0 +1,2242 @@
+[
+    [
+        "Proficient in Python and Java programming.",
+        {
+            "entities": [
+                [
+                    14,
+                    20,
+                    "SKILL"
+                ],
+                [
+                    25,
+                    29,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Expertise in Financial Modeling and Corporate Finance.",
+        {
+            "entities": [
+                [
+                    13,
+                    31,
+                    "SKILL"
+                ],
+                [
+                    36,
+                    53,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Built cloud apps using Docker, Kubernetes, and AWS.",
+        {
+            "entities": [
+                [
+                    23,
+                    29,
+                    "SKILL"
+                ],
+                [
+                    31,
+                    41,
+                    "SKILL"
+                ],
+                [
+                    47,
+                    50,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Strong knowledge of Digital Marketing and SEO strategies.",
+        {
+            "entities": [
+                [
+                    20,
+                    37,
+                    "SKILL"
+                ],
+                [
+                    42,
+                    45,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Developed backends with Node.js, Express, and MongoDB.",
+        {
+            "entities": [
+                [
+                    24,
+                    31,
+                    "SKILL"
+                ],
+                [
+                    33,
+                    40,
+                    "SKILL"
+                ],
+                [
+                    46,
+                    53,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Managed Talent Acquisition and HRIS systems.",
+        {
+            "entities": [
+                [
+                    8,
+                    26,
+                    "SKILL"
+                ],
+                [
+                    31,
+                    35,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Implemented Agile and Scrum methodologies.",
+        {
+            "entities": [
+                [
+                    12,
+                    17,
+                    "SKILL"
+                ],
+                [
+                    22,
+                    27,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Experience with React, Tailwind CSS, and TypeScript.",
+        {
+            "entities": [
+                [
+                    16,
+                    21,
+                    "SKILL"
+                ],
+                [
+                    23,
+                    35,
+                    "SKILL"
+                ],
+                [
+                    41,
+                    51,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Performed Market Research and Supply Chain Management.",
+        {
+            "entities": [
+                [
+                    10,
+                    25,
+                    "SKILL"
+                ],
+                [
+                    30,
+                    53,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Data visualization using Tableau and Power BI.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "SKILL"
+                ],
+                [
+                    37,
+                    45,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Specialized in Machine Learning and Deep Learning.",
+        {
+            "entities": [
+                [
+                    15,
+                    31,
+                    "SKILL"
+                ],
+                [
+                    36,
+                    49,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Utilized Salesforce CRM for Lead Generation.",
+        {
+            "entities": [
+                [
+                    9,
+                    19,
+                    "SKILL"
+                ],
+                [
+                    20,
+                    23,
+                    "SKILL"
+                ],
+                [
+                    28,
+                    43,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Setup CI/CD pipelines using Jenkins and GitHub Actions.",
+        {
+            "entities": [
+                [
+                    6,
+                    11,
+                    "SKILL"
+                ],
+                [
+                    28,
+                    35,
+                    "SKILL"
+                ],
+                [
+                    40,
+                    54,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Knowledge of Risk Management and Portfolio Management.",
+        {
+            "entities": [
+                [
+                    13,
+                    28,
+                    "SKILL"
+                ],
+                [
+                    33,
+                    53,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Used LangChain and ChromaDB for AI projects.",
+        {
+            "entities": [
+                [
+                    5,
+                    14,
+                    "SKILL"
+                ],
+                [
+                    19,
+                    27,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Strategic Planning and Business Intelligence expert.",
+        {
+            "entities": [
+                [
+                    0,
+                    18,
+                    "SKILL"
+                ],
+                [
+                    23,
+                    44,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Frontend skills in HTML, CSS, and Javascript.",
+        {
+            "entities": [
+                [
+                    19,
+                    23,
+                    "SKILL"
+                ],
+                [
+                    25,
+                    28,
+                    "SKILL"
+                ],
+                [
+                    34,
+                    44,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Experienced in Auditing and Taxation services.",
+        {
+            "entities": [
+                [
+                    15,
+                    23,
+                    "SKILL"
+                ],
+                [
+                    28,
+                    36,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Deployed models on Google Cloud and Microsoft Azure.",
+        {
+            "entities": [
+                [
+                    19,
+                    31,
+                    "SKILL"
+                ],
+                [
+                    36,
+                    51,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Proficient in Lean Manufacturing and Six Sigma.",
+        {
+            "entities": [
+                [
+                    14,
+                    32,
+                    "SKILL"
+                ],
+                [
+                    37,
+                    46,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "I have a Bachelor of Computer Applications degree.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "I am a highly motivated individual with a GPA of 3.8.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Managed cross-functional teams and improved efficiency.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "References available upon request.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "I am currently living in Ghaziabad, Uttar Pradesh.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Seeking a challenging role in a dynamic organization.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Awarded Best Student in the final year project.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Looking for internships in the tech industry.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Monitoring GPU Memory Usage and Inference Efficiency.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Education M.Tech in Artificial Intelligence.",
+        {
+            "entities": [
+                [
+                    23,
+                    46,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Personal details and contact information.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Interests include photography and traveling.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Proficient in Python and Java programming.",
+        {
+            "entities": [
+                [
+                    14,
+                    20,
+                    "SKILL"
+                ],
+                [
+                    25,
+                    29,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Expertise in Financial Modeling and Corporate Finance.",
+        {
+            "entities": [
+                [
+                    13,
+                    31,
+                    "SKILL"
+                ],
+                [
+                    36,
+                    53,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Built cloud apps using Docker, Kubernetes, and AWS.",
+        {
+            "entities": [
+                [
+                    23,
+                    29,
+                    "SKILL"
+                ],
+                [
+                    31,
+                    41,
+                    "SKILL"
+                ],
+                [
+                    47,
+                    50,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Strong knowledge of Digital Marketing and SEO strategies.",
+        {
+            "entities": [
+                [
+                    20,
+                    37,
+                    "SKILL"
+                ],
+                [
+                    42,
+                    45,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Developed backends with Node.js, Express, and MongoDB.",
+        {
+            "entities": [
+                [
+                    24,
+                    31,
+                    "SKILL"
+                ],
+                [
+                    33,
+                    40,
+                    "SKILL"
+                ],
+                [
+                    46,
+                    53,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Managed Talent Acquisition and HRIS systems.",
+        {
+            "entities": [
+                [
+                    8,
+                    26,
+                    "SKILL"
+                ],
+                [
+                    31,
+                    35,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Implemented Agile and Scrum methodologies.",
+        {
+            "entities": [
+                [
+                    12,
+                    17,
+                    "SKILL"
+                ],
+                [
+                    22,
+                    27,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Experience with React, Tailwind CSS, and TypeScript.",
+        {
+            "entities": [
+                [
+                    16,
+                    21,
+                    "SKILL"
+                ],
+                [
+                    23,
+                    35,
+                    "SKILL"
+                ],
+                [
+                    41,
+                    51,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Performed Market Research and Supply Chain Management.",
+        {
+            "entities": [
+                [
+                    10,
+                    25,
+                    "SKILL"
+                ],
+                [
+                    30,
+                    53,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Data visualization using Tableau and Power BI.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "SKILL"
+                ],
+                [
+                    37,
+                    45,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Specialized in Machine Learning and Deep Learning.",
+        {
+            "entities": [
+                [
+                    15,
+                    31,
+                    "SKILL"
+                ],
+                [
+                    36,
+                    49,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Utilized Salesforce CRM for Lead Generation.",
+        {
+            "entities": [
+                [
+                    9,
+                    19,
+                    "SKILL"
+                ],
+                [
+                    20,
+                    23,
+                    "SKILL"
+                ],
+                [
+                    28,
+                    43,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Setup CI/CD pipelines using Jenkins and GitHub Actions.",
+        {
+            "entities": [
+                [
+                    6,
+                    11,
+                    "SKILL"
+                ],
+                [
+                    28,
+                    35,
+                    "SKILL"
+                ],
+                [
+                    40,
+                    54,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Knowledge of Risk Management and Portfolio Management.",
+        {
+            "entities": [
+                [
+                    13,
+                    28,
+                    "SKILL"
+                ],
+                [
+                    33,
+                    53,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Used LangChain and ChromaDB for AI projects.",
+        {
+            "entities": [
+                [
+                    5,
+                    14,
+                    "SKILL"
+                ],
+                [
+                    19,
+                    27,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Strategic Planning and Business Intelligence expert.",
+        {
+            "entities": [
+                [
+                    0,
+                    18,
+                    "SKILL"
+                ],
+                [
+                    23,
+                    44,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Frontend skills in HTML, CSS, and Javascript.",
+        {
+            "entities": [
+                [
+                    19,
+                    23,
+                    "SKILL"
+                ],
+                [
+                    25,
+                    28,
+                    "SKILL"
+                ],
+                [
+                    34,
+                    44,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Experienced in Auditing and Taxation services.",
+        {
+            "entities": [
+                [
+                    15,
+                    23,
+                    "SKILL"
+                ],
+                [
+                    28,
+                    36,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Deployed models on Google Cloud and Microsoft Azure.",
+        {
+            "entities": [
+                [
+                    19,
+                    31,
+                    "SKILL"
+                ],
+                [
+                    36,
+                    51,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Proficient in Lean Manufacturing and Six Sigma.",
+        {
+            "entities": [
+                [
+                    14,
+                    32,
+                    "SKILL"
+                ],
+                [
+                    37,
+                    46,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "I have a Bachelor of Computer Applications degree.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "I am a highly motivated individual with a GPA of 3.8.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Managed cross-functional teams and improved efficiency.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "References available upon request.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "I am currently living in Ghaziabad, Uttar Pradesh.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Seeking a challenging role in a dynamic organization.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Awarded Best Student in the final year project.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Looking for internships in the tech industry.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Monitoring GPU Memory Usage and Inference Efficiency.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Education M.Tech in Artificial Intelligence.",
+        {
+            "entities": [
+                [
+                    23,
+                    46,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Personal details and contact information.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Interests include photography and traveling.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Proficient in Python and Java programming.",
+        {
+            "entities": [
+                [
+                    14,
+                    20,
+                    "SKILL"
+                ],
+                [
+                    25,
+                    29,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Expertise in Financial Modeling and Corporate Finance.",
+        {
+            "entities": [
+                [
+                    13,
+                    31,
+                    "SKILL"
+                ],
+                [
+                    36,
+                    53,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Built cloud apps using Docker, Kubernetes, and AWS.",
+        {
+            "entities": [
+                [
+                    23,
+                    29,
+                    "SKILL"
+                ],
+                [
+                    31,
+                    41,
+                    "SKILL"
+                ],
+                [
+                    47,
+                    50,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Strong knowledge of Digital Marketing and SEO strategies.",
+        {
+            "entities": [
+                [
+                    20,
+                    37,
+                    "SKILL"
+                ],
+                [
+                    42,
+                    45,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Developed backends with Node.js, Express, and MongoDB.",
+        {
+            "entities": [
+                [
+                    24,
+                    31,
+                    "SKILL"
+                ],
+                [
+                    33,
+                    40,
+                    "SKILL"
+                ],
+                [
+                    46,
+                    53,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Managed Talent Acquisition and HRIS systems.",
+        {
+            "entities": [
+                [
+                    8,
+                    26,
+                    "SKILL"
+                ],
+                [
+                    31,
+                    35,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Implemented Agile and Scrum methodologies.",
+        {
+            "entities": [
+                [
+                    12,
+                    17,
+                    "SKILL"
+                ],
+                [
+                    22,
+                    27,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Experience with React, Tailwind CSS, and TypeScript.",
+        {
+            "entities": [
+                [
+                    16,
+                    21,
+                    "SKILL"
+                ],
+                [
+                    23,
+                    35,
+                    "SKILL"
+                ],
+                [
+                    41,
+                    51,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Performed Market Research and Supply Chain Management.",
+        {
+            "entities": [
+                [
+                    10,
+                    25,
+                    "SKILL"
+                ],
+                [
+                    30,
+                    53,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Data visualization using Tableau and Power BI.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "SKILL"
+                ],
+                [
+                    37,
+                    45,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Specialized in Machine Learning and Deep Learning.",
+        {
+            "entities": [
+                [
+                    15,
+                    31,
+                    "SKILL"
+                ],
+                [
+                    36,
+                    49,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Utilized Salesforce CRM for Lead Generation.",
+        {
+            "entities": [
+                [
+                    9,
+                    19,
+                    "SKILL"
+                ],
+                [
+                    20,
+                    23,
+                    "SKILL"
+                ],
+                [
+                    28,
+                    43,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Setup CI/CD pipelines using Jenkins and GitHub Actions.",
+        {
+            "entities": [
+                [
+                    6,
+                    11,
+                    "SKILL"
+                ],
+                [
+                    28,
+                    35,
+                    "SKILL"
+                ],
+                [
+                    40,
+                    54,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Knowledge of Risk Management and Portfolio Management.",
+        {
+            "entities": [
+                [
+                    13,
+                    28,
+                    "SKILL"
+                ],
+                [
+                    33,
+                    53,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Used LangChain and ChromaDB for AI projects.",
+        {
+            "entities": [
+                [
+                    5,
+                    14,
+                    "SKILL"
+                ],
+                [
+                    19,
+                    27,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Strategic Planning and Business Intelligence expert.",
+        {
+            "entities": [
+                [
+                    0,
+                    18,
+                    "SKILL"
+                ],
+                [
+                    23,
+                    44,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Frontend skills in HTML, CSS, and Javascript.",
+        {
+            "entities": [
+                [
+                    19,
+                    23,
+                    "SKILL"
+                ],
+                [
+                    25,
+                    28,
+                    "SKILL"
+                ],
+                [
+                    34,
+                    44,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Experienced in Auditing and Taxation services.",
+        {
+            "entities": [
+                [
+                    15,
+                    23,
+                    "SKILL"
+                ],
+                [
+                    28,
+                    36,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Deployed models on Google Cloud and Microsoft Azure.",
+        {
+            "entities": [
+                [
+                    19,
+                    31,
+                    "SKILL"
+                ],
+                [
+                    36,
+                    51,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Proficient in Lean Manufacturing and Six Sigma.",
+        {
+            "entities": [
+                [
+                    14,
+                    32,
+                    "SKILL"
+                ],
+                [
+                    37,
+                    46,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "I have a Bachelor of Computer Applications degree.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "I am a highly motivated individual with a GPA of 3.8.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Managed cross-functional teams and improved efficiency.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "References available upon request.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "I am currently living in Ghaziabad, Uttar Pradesh.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Seeking a challenging role in a dynamic organization.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Awarded Best Student in the final year project.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Looking for internships in the tech industry.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Monitoring GPU Memory Usage and Inference Efficiency.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Education M.Tech in Artificial Intelligence.",
+        {
+            "entities": [
+                [
+                    23,
+                    46,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Personal details and contact information.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Interests include photography and traveling.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Proficient in Python and Java programming.",
+        {
+            "entities": [
+                [
+                    14,
+                    20,
+                    "SKILL"
+                ],
+                [
+                    25,
+                    29,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Expertise in Financial Modeling and Corporate Finance.",
+        {
+            "entities": [
+                [
+                    13,
+                    31,
+                    "SKILL"
+                ],
+                [
+                    36,
+                    53,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Built cloud apps using Docker, Kubernetes, and AWS.",
+        {
+            "entities": [
+                [
+                    23,
+                    29,
+                    "SKILL"
+                ],
+                [
+                    31,
+                    41,
+                    "SKILL"
+                ],
+                [
+                    47,
+                    50,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Strong knowledge of Digital Marketing and SEO strategies.",
+        {
+            "entities": [
+                [
+                    20,
+                    37,
+                    "SKILL"
+                ],
+                [
+                    42,
+                    45,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Developed backends with Node.js, Express, and MongoDB.",
+        {
+            "entities": [
+                [
+                    24,
+                    31,
+                    "SKILL"
+                ],
+                [
+                    33,
+                    40,
+                    "SKILL"
+                ],
+                [
+                    46,
+                    53,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Managed Talent Acquisition and HRIS systems.",
+        {
+            "entities": [
+                [
+                    8,
+                    26,
+                    "SKILL"
+                ],
+                [
+                    31,
+                    35,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Implemented Agile and Scrum methodologies.",
+        {
+            "entities": [
+                [
+                    12,
+                    17,
+                    "SKILL"
+                ],
+                [
+                    22,
+                    27,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Experience with React, Tailwind CSS, and TypeScript.",
+        {
+            "entities": [
+                [
+                    16,
+                    21,
+                    "SKILL"
+                ],
+                [
+                    23,
+                    35,
+                    "SKILL"
+                ],
+                [
+                    41,
+                    51,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Performed Market Research and Supply Chain Management.",
+        {
+            "entities": [
+                [
+                    10,
+                    25,
+                    "SKILL"
+                ],
+                [
+                    30,
+                    53,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Data visualization using Tableau and Power BI.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "SKILL"
+                ],
+                [
+                    37,
+                    45,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Specialized in Machine Learning and Deep Learning.",
+        {
+            "entities": [
+                [
+                    15,
+                    31,
+                    "SKILL"
+                ],
+                [
+                    36,
+                    49,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Utilized Salesforce CRM for Lead Generation.",
+        {
+            "entities": [
+                [
+                    9,
+                    19,
+                    "SKILL"
+                ],
+                [
+                    20,
+                    23,
+                    "SKILL"
+                ],
+                [
+                    28,
+                    43,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Setup CI/CD pipelines using Jenkins and GitHub Actions.",
+        {
+            "entities": [
+                [
+                    6,
+                    11,
+                    "SKILL"
+                ],
+                [
+                    28,
+                    35,
+                    "SKILL"
+                ],
+                [
+                    40,
+                    54,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Knowledge of Risk Management and Portfolio Management.",
+        {
+            "entities": [
+                [
+                    13,
+                    28,
+                    "SKILL"
+                ],
+                [
+                    33,
+                    53,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Used LangChain and ChromaDB for AI projects.",
+        {
+            "entities": [
+                [
+                    5,
+                    14,
+                    "SKILL"
+                ],
+                [
+                    19,
+                    27,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Strategic Planning and Business Intelligence expert.",
+        {
+            "entities": [
+                [
+                    0,
+                    18,
+                    "SKILL"
+                ],
+                [
+                    23,
+                    44,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Frontend skills in HTML, CSS, and Javascript.",
+        {
+            "entities": [
+                [
+                    19,
+                    23,
+                    "SKILL"
+                ],
+                [
+                    25,
+                    28,
+                    "SKILL"
+                ],
+                [
+                    34,
+                    44,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Experienced in Auditing and Taxation services.",
+        {
+            "entities": [
+                [
+                    15,
+                    23,
+                    "SKILL"
+                ],
+                [
+                    28,
+                    36,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Deployed models on Google Cloud and Microsoft Azure.",
+        {
+            "entities": [
+                [
+                    19,
+                    31,
+                    "SKILL"
+                ],
+                [
+                    36,
+                    51,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Proficient in Lean Manufacturing and Six Sigma.",
+        {
+            "entities": [
+                [
+                    14,
+                    32,
+                    "SKILL"
+                ],
+                [
+                    37,
+                    46,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "I have a Bachelor of Computer Applications degree.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "I am a highly motivated individual with a GPA of 3.8.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Managed cross-functional teams and improved efficiency.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "References available upon request.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "I am currently living in Ghaziabad, Uttar Pradesh.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Seeking a challenging role in a dynamic organization.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Awarded Best Student in the final year project.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Looking for internships in the tech industry.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Monitoring GPU Memory Usage and Inference Efficiency.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Education M.Tech in Artificial Intelligence.",
+        {
+            "entities": [
+                [
+                    23,
+                    46,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Personal details and contact information.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Interests include photography and traveling.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Proficient in Python and Java programming.",
+        {
+            "entities": [
+                [
+                    14,
+                    20,
+                    "SKILL"
+                ],
+                [
+                    25,
+                    29,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Expertise in Financial Modeling and Corporate Finance.",
+        {
+            "entities": [
+                [
+                    13,
+                    31,
+                    "SKILL"
+                ],
+                [
+                    36,
+                    53,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Built cloud apps using Docker, Kubernetes, and AWS.",
+        {
+            "entities": [
+                [
+                    23,
+                    29,
+                    "SKILL"
+                ],
+                [
+                    31,
+                    41,
+                    "SKILL"
+                ],
+                [
+                    47,
+                    50,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Strong knowledge of Digital Marketing and SEO strategies.",
+        {
+            "entities": [
+                [
+                    20,
+                    37,
+                    "SKILL"
+                ],
+                [
+                    42,
+                    45,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Developed backends with Node.js, Express, and MongoDB.",
+        {
+            "entities": [
+                [
+                    24,
+                    31,
+                    "SKILL"
+                ],
+                [
+                    33,
+                    40,
+                    "SKILL"
+                ],
+                [
+                    46,
+                    53,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Managed Talent Acquisition and HRIS systems.",
+        {
+            "entities": [
+                [
+                    8,
+                    26,
+                    "SKILL"
+                ],
+                [
+                    31,
+                    35,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Implemented Agile and Scrum methodologies.",
+        {
+            "entities": [
+                [
+                    12,
+                    17,
+                    "SKILL"
+                ],
+                [
+                    22,
+                    27,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Experience with React, Tailwind CSS, and TypeScript.",
+        {
+            "entities": [
+                [
+                    16,
+                    21,
+                    "SKILL"
+                ],
+                [
+                    23,
+                    35,
+                    "SKILL"
+                ],
+                [
+                    41,
+                    51,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Performed Market Research and Supply Chain Management.",
+        {
+            "entities": [
+                [
+                    10,
+                    25,
+                    "SKILL"
+                ],
+                [
+                    30,
+                    53,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Data visualization using Tableau and Power BI.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "SKILL"
+                ],
+                [
+                    37,
+                    45,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Specialized in Machine Learning and Deep Learning.",
+        {
+            "entities": [
+                [
+                    15,
+                    31,
+                    "SKILL"
+                ],
+                [
+                    36,
+                    49,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Utilized Salesforce CRM for Lead Generation.",
+        {
+            "entities": [
+                [
+                    9,
+                    19,
+                    "SKILL"
+                ],
+                [
+                    20,
+                    23,
+                    "SKILL"
+                ],
+                [
+                    28,
+                    43,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Setup CI/CD pipelines using Jenkins and GitHub Actions.",
+        {
+            "entities": [
+                [
+                    6,
+                    11,
+                    "SKILL"
+                ],
+                [
+                    28,
+                    35,
+                    "SKILL"
+                ],
+                [
+                    40,
+                    54,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Knowledge of Risk Management and Portfolio Management.",
+        {
+            "entities": [
+                [
+                    13,
+                    28,
+                    "SKILL"
+                ],
+                [
+                    33,
+                    53,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Used LangChain and ChromaDB for AI projects.",
+        {
+            "entities": [
+                [
+                    5,
+                    14,
+                    "SKILL"
+                ],
+                [
+                    19,
+                    27,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Strategic Planning and Business Intelligence expert.",
+        {
+            "entities": [
+                [
+                    0,
+                    18,
+                    "SKILL"
+                ],
+                [
+                    23,
+                    44,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Frontend skills in HTML, CSS, and Javascript.",
+        {
+            "entities": [
+                [
+                    19,
+                    23,
+                    "SKILL"
+                ],
+                [
+                    25,
+                    28,
+                    "SKILL"
+                ],
+                [
+                    34,
+                    44,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Experienced in Auditing and Taxation services.",
+        {
+            "entities": [
+                [
+                    15,
+                    23,
+                    "SKILL"
+                ],
+                [
+                    28,
+                    36,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Deployed models on Google Cloud and Microsoft Azure.",
+        {
+            "entities": [
+                [
+                    19,
+                    31,
+                    "SKILL"
+                ],
+                [
+                    36,
+                    51,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Proficient in Lean Manufacturing and Six Sigma.",
+        {
+            "entities": [
+                [
+                    14,
+                    32,
+                    "SKILL"
+                ],
+                [
+                    37,
+                    46,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "I have a Bachelor of Computer Applications degree.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "I am a highly motivated individual with a GPA of 3.8.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Managed cross-functional teams and improved efficiency.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "References available upon request.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "I am currently living in Ghaziabad, Uttar Pradesh.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Seeking a challenging role in a dynamic organization.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Awarded Best Student in the final year project.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Looking for internships in the tech industry.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Monitoring GPU Memory Usage and Inference Efficiency.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Education M.Tech in Artificial Intelligence.",
+        {
+            "entities": [
+                [
+                    23,
+                    46,
+                    "SKILL"
+                ]
+            ]
+        }
+    ],
+    [
+        "Personal details and contact information.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "Interests include photography and traveling.",
+        {
+            "entities": []
+        }
+    ]
+]

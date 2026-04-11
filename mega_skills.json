@@ -1,0 +1,44 @@
+{
+  "skills_database": {
+    "core_tech": [
+      "python", "java", "c++", "c", "c#", "javascript", "typescript", "ruby", "php", "swift", "kotlin", "go", "rust", "dart", "scala", "r", "matlab", "julia", "perl", "lua", "elixir", "erlang", "haskell", "clojure", "assembly", "cobol", "fortran", "objective-c",
+      "html", "css", "react", "next.js", "vue", "angular", "svelte", "solidjs", "tailwind css", "bootstrap", "material ui", "material-ui", "chakra ui", "ant design", "sass", "less", "redux", "zustand", "context api", "webpack", "vite", "babel", "htmx", "jquery", "qwik",
+      "node.js", "express", "django", "flask", "fastapi", "spring boot", "ruby on rails", "laravel", "symfony", "asp.net", "asp.net core", "nestjs", "gin", "echo", "fiber", "phoenix", "rest api", "graphql", "grpc", "trpc", "websockets", "webrtc", "microservices", "soa",
+      "sql", "mysql", "postgresql", "sqlite", "oracle", "mariadb", "cockroachdb", "sql server", "mongodb", "firebase", "redis", "cassandra", "dynamodb", "couchbase", "neo4j", "elasticsearch", "solr", "supabase", "appwrite", "influxdb", "timescaledb", "arangodb", "vector databases", "faiss", "pinecone", "chromadb", "qdrant", "milvus", "weaviate",
+      "aws", "azure", "google cloud", "gcp", "digitalocean", "heroku", "vercel", "netlify", "docker", "kubernetes", "podman", "jenkins", "github actions", "gitlab ci", "circleci", "ci/cd", "terraform", "ansible", "puppet", "chef", "nginx", "apache", "caddy", "prometheus", "grafana", "datadog", "splunk", "elk stack", "argocd", "linux", "ubuntu", "windows server", "macos", "unix", "shell scripting", "bash", "devops",
+      "hadoop", "spark", "kafka", "rabbitmq", "activemq", "celery", "apache airflow", "dbt", "snowflake", "databricks", "bigquery", "amazon redshift", "pyspark", "flink",
+      "machine learning", "deep learning", "artificial intelligence", "nlp", "computer vision", "data science", "data analytics", "tensorflow", "pytorch", "keras", "scikit-learn", "pandas", "numpy", "matplotlib", "seaborn", "xgboost", "lightgbm", "opencv", "spacy", "nltk",
+      "llm", "prompt engineering", "hugging face", "langchain", "llamaindex", "openai", "openai api", "gemini api", "claude", "stable diffusion", "midjourney", "rag", "fine-tuning", "lora", "peft", "reinforcement learning", "rlhf", "autogen", "semantic kernel", "mlops", "weights & biases", "mlflow", "streamlit", "gradio",
+      "git", "github", "gitlab", "jira", "trello", "confluence", "postman", "figma", "adobe xd", "photoshop", "illustrator",
+      "agile", "scrum", "kanban", "system design", "data structures", "algorithms",
+      "testing", "unit testing", "jest", "pytest", "mocha", "cypress", "puppeteer", "playwright", "selenium", "beautifulsoup", "web scraping", "automation",
+      "cybersecurity", "penetration testing", "ethical hacking", "cryptography", "owasp", "wireshark", "nmap", "metasploit", "burp suite", "kali linux", "reverse engineering", "malware analysis", "iam", "zero trust",
+      "blockchain", "smart contracts", "ethereum", "bitcoin", "solidity", "web3.js", "ethers.js", "hardhat", "truffle", "ipfs", "polygon", "solana", "nft", "defi",
+      "game development", "unity", "unreal engine", "godot", "phaser", "three.js", "webgl", "opengl", "vulkan", "directx", "blender",
+      "iot", "arduino", "raspberry pi", "embedded c", "microcontrollers", "rtos", "mqtt", "edge computing",
+      "api design", "oauth", "jwt", "saml", "sso", "design patterns", "regex",
+      "android development", "ios development", "react native", "flutter", "xamarin", "ionic", "capacitor", "cordova"
+    ],
+    "managerial_skills": [
+      "leadership", "communication", "public speaking", "problem solving", "critical thinking", "teamwork", "collaboration", "time management", "adaptability", "emotional intelligence", "conflict resolution", "creativity", "work ethic", "presentation skills",
+      "team building", "team management", "mentoring", "coaching", "delegation", "motivation", "performance management", "talent development", "succession planning", "empowerment", "crisis management", "remote team management", "cross-functional leadership",
+      "written communication", "verbal communication", "active listening", "negotiation", "persuasion", "stakeholder management", "client relations", "networking", "storytelling", "cross-cultural communication", "diplomacy", "facilitation",
+      "eq", "empathy", "self-awareness", "resilience", "flexibility", "patience", "stress management", "integrity", "accountability", "dependability", "growth mindset", "cultural fit",
+      "financial modeling", "accounting", "corporate finance", "investment banking", "portfolio management", "risk management", "auditing", "taxation", "financial analysis", "valuation",
+      "marketing strategy", "digital marketing", "seo", "sem", "content marketing", "social media marketing", "email marketing", "brand management", "market research", "consumer behavior", "google analytics", "hubspot",
+      "b2b sales", "b2c sales", "crm", "salesforce", "lead generation", "customer success", "account management", "business development",
+      "human resources", "talent acquisition", "recruitment", "recruiting", "employee relations", "compensation and benefits", "compensation & benefits", "hris", "workday", "organizational development",
+      "supply chain management", "logistics", "operations management", "quality assurance", "six sigma", "lean management", "lean manufacturing", "inventory management", "procurement",
+      "project management", "product management", "strategic planning", "business strategy", "change management", "data-driven decision making", "business intelligence",
+      "excel", "advanced excel", "power bi", "tableau", "looker", "word", "powerpoint", "microsoft office", "g suite",
+      "b2b", "b2c", "strategic thinking", "analytical thinking", "root cause analysis", "decision making", "troubleshooting", "lateral thinking", "systems thinking",
+      "innovation", "design thinking", "brainstorming", "ideation", "out-of-the-box thinking", "visionary thinking", "trend forecasting",
+      "sales", "customer experience (cx)", "customer relationship management (crm)", "marketing", "digital marketing strategy", "branding", "public relations (pr)", "upselling", "client retention", "customer service",
+      "interviewing", "employee engagement", "onboarding", "employer branding", "diversity and inclusion (d&i)", "workforce planning",
+      "quality control", "compliance", "regulatory compliance", "governance", "health and safety", "data privacy",
+      "prioritization", "multitasking", "organizational skills", "goal setting", "planning", "meeting facilitation", "focus", "efficiency",
+      "agile", "scrum", "kanban", "waterfall", "prince2", "okr", "kpi tracking", "itil", "safe (scaled agile framework)",
+      "roadmapping", "product lifecycle", "release management", "resource planning", "scope management", "budgeting", "cost control", "vendor management", "sprint planning", "backlog grooming", "user story creation"
+    ]
+  }
+}

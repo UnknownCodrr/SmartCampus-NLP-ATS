@@ -1,0 +1,26 @@
+FRONT PAGE TO BE DECIDED...
+---------------------------
+Starting:-
+Certificate - Declaration - Acknowledgement
+---------------------------
+Abstract -> Paragraph
+TOC
+---------------------------
+1. - Intro(min 3 pages- 1.1Purpose,1.2Problem Statement,1.3Intended Audience, 1.4Scope)
+2. - Definitions - Acronyms, Abbreviations
+
+---------------------------
+3. - Objective(min 2 pages, detailed)
+4. - Product Description(Functionality, Product perspective, User classes, UI, OS Env.)
+5. - Technology Used(Hardware Requirements, Software Requirements, Dependencies)
+6. - Technique Implemented(1-2 pages)
+7. - Design and Implementation Diagrams
+8. - Methodology Adopted(2-3 pages)
+9. - Implementation(Pt1.Full Code, pt2. My Contributions{for single files})
+10. - Results - UI
+11. - Test Cases
+
+---------------------------
+Conclusion
+Future scope
+Bibliography

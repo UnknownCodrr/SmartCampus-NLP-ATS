@@ -1,0 +1,27 @@
+[
+  {
+    "text": "I am a software engineer with 5 years of experience in Python, Java, and React. I also know Docker.",
+    "entities": [
+      [55, 61, "SKILL"],
+      [63, 67, "SKILL"],
+      [73, 78, "SKILL"],
+      [92, 98, "SKILL"]
+    ]
+  },
+  {
+    "text": "My tech stack includes Kubernetes, AWS, and strong skills in Node.js.",
+    "entities": [
+      [23, 33, "SKILL"],
+      [35, 38, "SKILL"],
+      [61, 68, "SKILL"]
+    ]
+  },
+  {
+    "text": "Worked extensively with PyTorch and TensorFlow for deep learning projects.",
+    "entities": [
+      [24, 31, "SKILL"],
+      [36, 46, "SKILL"],
+      [51, 64, "SKILL"]
+    ]
+  }
+]

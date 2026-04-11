@@ -1,0 +1,9 @@
+streamlit
+streamlit-cookies-controller
+pandas
+plotly
+mysql-connector-python
+requests
+pdfplumber
+spacy
+streamlit-lottie

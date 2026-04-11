@@ -36,7 +36,8 @@ def get_connection():
             "user": user,
             "password": password,
             "database": database,
-            "port": port
+            "port": port,
+            "compress": True
         }
 
         # 3. THE SMART SWITCH: Only use SSL if we are NOT on localhost

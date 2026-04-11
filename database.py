@@ -7,6 +7,7 @@ import re
 import os
 from dotenv import load_dotenv
 import streamlit as st
+import certifi
 
 load_dotenv()
 
@@ -40,7 +41,9 @@ def get_connection():
 
         # 3. THE SMART SWITCH: Only use SSL if we are NOT on localhost
         if "localhost" not in host and "127.0.0.1" not in host:
+            # 🔥 THE FIX: Tell the connection exactly where the SSL certificates are
             connection_args["ssl_verify_cert"] = True
+            connection_args["ssl_ca"] = certifi.where()
 
         conn = mysql.connector.connect(**connection_args)
         return conn

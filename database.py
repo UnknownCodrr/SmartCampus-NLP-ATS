@@ -24,7 +24,7 @@ def get_connection():
         # 1. Pull credentials (Local reads from .env, Cloud reads from Secrets)
         host = os.getenv("DB_HOST", "localhost")
         user = os.getenv("DB_USER", "root")
-        password = os.getenv("DB_PASSWORD", "")
+        password = os.getenv("DB_PASSWORD", "DB_Password")
         database = os.getenv("DB_NAME", "smartcampus_db")
         port = int(os.getenv("DB_PORT", 3306))
 

@@ -1,0 +1,71 @@
+#Theme - Light
+
+#[theme]
+#primaryColor = "#6366F1"
+#backgroundColor = "#F8FAFC"
+#secondaryBackgroundColor = "#FFFFFF"
+#textColor = "#0F172A"
+#font = "sans serif"
+
+#-----------------------------------------------------------------------------------------------------------------------
+#Theme - Vibrant Purple
+##
+#[theme]
+#primaryColor = "#8B5CF6"
+#backgroundColor = "#0F172A"
+#secondaryBackgroundColor = "#1E293B"
+#textColor = "#F8FAFC"
+#font = "sans serif"
+
+#-----------------------------------------------------------------------------------------------------------------------
+#Theme - Classic
+
+#[theme]
+#primaryColor = "#2563EB"
+#backgroundColor = "#F3F4F6"
+#secondaryBackgroundColor = "#FFFFFF"
+#textColor = "#111827"
+#font = "sans serif"
+
+#-----------------------------------------------------------------------------------------------------------------------
+#Theme - Cyber
+
+#[theme]
+#primaryColor = "#10B981"
+#backgroundColor = "#111827"
+#secondaryBackgroundColor = "#1F2937"
+#textColor = "#F9FAFB"
+#font = "monospace"
+
+#-----------------------------------------------------------------------------------------------------------------------
+#Theme - Fintech
+
+#[theme]
+#primaryColor = "#0D9488"
+#backgroundColor = "#FAFAFA"
+#secondaryBackgroundColor = "#FFFFFF"
+#textColor = "#171717"
+#font = "sans serif"
+
+#-----------------------------------------------------------------------------------------------------------------------
+#Theme - Dark
+
+[theme]
+primaryColor = "#5E6AD2"
+backgroundColor = "#0A0A0A"
+secondaryBackgroundColor = "#171717"
+textColor = "#EDEDED"
+font = "sans serif"
+
+#-----------------------------------------------------------------------------------------------------------------------
+
+#Theme - Stripe Light
+
+#[theme]
+#primaryColor = "#635BFF"
+#backgroundColor = "#F6F9FC"
+#secondaryBackgroundColor = "#FFFFFF"
+#textColor = "#425466"
+#font = "sans serif"
+
+#-----------------------------------------------------------------------------------------------------------------------

@@ -14,6 +14,32 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
+st.markdown("""
+    <style>
+    /* Adaptive background and border using semi-transparent grey */
+    .stTextInput div[data-baseweb="input"],
+    .stTextArea div[data-baseweb="textarea"],
+    .stNumberInput div[data-baseweb="input"],
+    .stSelectbox div[data-baseweb="select"],
+    .stDateInput div[data-baseweb="input"] {
+        border: 1px solid rgba(128, 128, 128, 0.2) !important;
+        background-color: rgba(128, 128, 128, 0.05) !important;
+        border-radius: 6px !important;
+        padding: 2px;
+    }
+
+    /* Use Streamlit's native primary color for the glow so it matches automatically */
+    .stTextInput div[data-baseweb="input"]:focus-within,
+    .stTextArea div[data-baseweb="textarea"]:focus-within,
+    .stNumberInput div[data-baseweb="input"]:focus-within,
+    .stSelectbox div[data-baseweb="select"]:focus-within,
+    .stDateInput div[data-baseweb="input"]:focus-within {
+        border: 1px solid var(--primary-color) !important;
+        box-shadow: 0 0 0 1px var(--primary-color) !important;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
 # --- ADVANCED UI: GLOBAL PAGE TRANSITION & CLEANUP ENGINE ---
 st.markdown("""
 <style>

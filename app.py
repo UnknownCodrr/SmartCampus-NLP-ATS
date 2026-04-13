@@ -118,8 +118,7 @@ try:
     # Safely attempts to read from secrets
     if st.secrets.get("MAINTENANCE_MODE") == "True":
         st.error("🛠️ **System Offline for Maintenance**")
-        st.info("SmartCampus app is being modified for your ease of use! Please check back after sometime. ")
-        st.warning("The platform is currently undergoing critical updates. Please check back later.")
+        st.warning("SmartCampus app is being modified for your ease of use! Please check back after sometime. ")
         st.stop()
 except Exception:
     # If the secrets file doesn't exist (like on your localhost), it just silently passes

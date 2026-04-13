@@ -112,8 +112,21 @@ def admin_dash():
     render_admin_dashboard(controller)
 
 
-# -------------------------
+# ------------------------
 
+try:
+    # Safely attempts to read from secrets
+    if st.secrets.get("MAINTENANCE_MODE") == "True":
+        st.error("🛠️ **System Offline for Maintenance**")
+        st.warning("The platform is currently undergoing critical updates. Please check back later.")
+        st.stop()
+except Exception:
+    # If the secrets file doesn't exist (like on your localhost), it just silently passes
+    pass
+
+# Your normal app code continues below this...
+def main():
+    st.title("Welcome to SmartCampus")
 
 def main():
     init_db()

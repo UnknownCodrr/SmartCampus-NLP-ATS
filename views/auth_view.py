@@ -47,6 +47,7 @@ def render_top_left_logo():
     st.write("")
 
 
+
 # ==========================================
 # HELPER: GLOBAL FOOTER
 # ==========================================
@@ -55,11 +56,16 @@ def render_footer():
     st.write("")
     st.divider()
 
-    foot_col1, foot_col2, foot_col3 = st.columns(3)
+    # FIX 1: Change ratio to give the text-heavy first column more room, and use gap="large"
+    foot_col1, foot_col2, foot_col3 = st.columns([1.3, 1, 1], gap="large")
+
     with foot_col1:
         st.write("#### 🏢 About SmartCampus")
         st.caption(
-            "A placement portal designed to bridge the gap between student skills and industry requirements using Natural Language Processing.")
+            "A placement portal designed to bridge the gap between student skills and industry requirements using Natural Language Processing."
+        )
+
+        st.write("")  # FIX 2: Added a vertical spacer so the expander isn't hugging the text above it
 
         with st.expander("📝 View Release Notes"):
             st.markdown("""
@@ -73,17 +79,30 @@ def render_footer():
 
     with foot_col2:
         st.write("#### 📞 Reach Us")
-        st.caption("📍 **Campus:** ITS Mohan Nagar, Ghaziabad, UP")
-        st.caption("✉️ **Email:** support@its.edu.in")
+
+        # FIX 3: Replaced stacked st.caption with st.markdown and a <br> for better vertical rhythm
+        st.markdown(
+            "<span style='font-size: 0.9em; color: #a0a0a0;'>📍 **Campus:** ITS Mohan Nagar, Ghaziabad, UP</span>",
+            unsafe_allow_html=True)
+        st.markdown("<br>", unsafe_allow_html=True)
+        st.markdown("<span style='font-size: 0.9em; color: #a0a0a0;'>✉️ **Email:** support@its.edu.in</span>",
+                    unsafe_allow_html=True)
+
     with foot_col3:
         st.write("#### 🛠️ System Info")
-        st.markdown("""
-        **🧑‍💻 Developed by:**
-        * **Abhinav Nirwan** (Lead Architect)
-        * **Aryan** (Associate Developer)
-        * **Manmohan** (Data Analyst)
-        """)
+        st.markdown("<span style='font-size: 0.9em; color: #a0a0a0;'>**🧑‍💻 Developed by:**</span>",
+                    unsafe_allow_html=True)
 
+        # FIX 4: Kept the markdown list but wrapped in subtle styling to match the captions
+        st.markdown("""
+        <div style='font-size: 0.9em; color: #a0a0a0;'>
+        <ul>
+            <li><b>Abhinav Nirwan</b> (Lead Architect)</li>
+            <li><b>Aryan</b> (Associate Developer)</li>
+            <li><b>Manmohan</b> (Data Analyst)</li>
+        </ul>
+        </div>
+        """, unsafe_allow_html=True)
 
 # ==========================================
 # PAGE 1: THE HOME / LANDING PAGE

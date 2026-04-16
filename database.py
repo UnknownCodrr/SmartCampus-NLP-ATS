@@ -311,7 +311,7 @@ def delete_user(email):
 
 def create_job(coordinator_id, title, company, required_skills, description, drive_date, application_deadline,
                min_match_score, ctc, bypass_restriction=False):
-    """Natively creates a new job opening drive without any non-compliant JS/CSS."""
+    """Natively creates a new job opening drive and clears caches."""
     conn = get_connection()
     if not conn: return False, "Database connection error"
     cursor = conn.cursor()
@@ -323,6 +323,13 @@ def create_job(coordinator_id, title, company, required_skills, description, dri
                        (coordinator_id, title, company, required_skills, description, drive_date, application_deadline,
                         min_match_score, ctc, bypass_restriction))
         conn.commit()
+
+        # NUKE THE CACHES! Force Streamlit to show the new drive instantly
+        get_all_jobs.clear()
+        get_coordinator_analytics.clear()
+        get_platform_stats.clear()
+        get_all_analytics.clear()
+
         return True, "Job posted successfully!"
     except Exception as e:
         return False, f"Error: {e}"
@@ -392,15 +399,25 @@ def check_if_applied(student_id, job_id):
 
 
 def delete_job(job_id):
-    """Deletes a job drive. Cascaded deletions handle retaining historical application status."""
+    """Deletes a job drive and clears Streamlit caches to prevent ghost data."""
     conn = get_connection()
     if not conn: return False
     cursor = conn.cursor()
     try:
+        # 1. Execute the delete command
         cursor.execute("DELETE FROM jobs WHERE id = %s", (job_id,))
         conn.commit()
+
+        # 2. NUKE THE CACHES! Force Streamlit to fetch fresh data
+        get_all_jobs.clear()
+        get_coordinator_analytics.clear()
+        get_platform_stats.clear()
+        get_all_analytics.clear()
+
         return True
     except Exception as e:
+        # 3. PRINT THE ERROR! Do not fail silently anymore.
+        print(f"CRITICAL SQL ERROR in delete_job: {e}")
         return False
     finally:
         cursor.close()

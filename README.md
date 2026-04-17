@@ -1,7 +1,8 @@
-# SmartCampus: AI-Powered Placement Portal (v1.1.0-Beta)
+# SmartCampus: NLP-Driven Placement & Resume Matcher
 
-## 🎯 Project Overview
-SmartCampus is an end-to-end recruitment platform designed for institutional placement cells. It features an NLP-driven resume parser and a smart matching algorithm to bridge the gap between student skills and job requirements.
+🚀 **[Experience the Live Platform Here](https://smartcampus-its.streamlit.app)**
+
+SmartCampus is an enterprise-grade Single Page Application that automates campus recruitment using O(1) mathematical Set Theory and Natural Language Processing...
 
 ## 🚀 Key Features
 - **SmartScore Matching:** Exact-match and alias-mapped skill comparison.

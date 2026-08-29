@@ -36,6 +36,7 @@ def render_watermark():
         st.caption("⚙️ **v1.0.0-Beta** *(Genesis)*")
 
 
+
 # ==========================================
 # HELPER: TOP-LEFT LOGO
 # ==========================================
@@ -64,12 +65,15 @@ def render_footer():
         st.caption(
             "A placement portal designed to bridge the gap between student skills and industry requirements using Natural Language Processing."
         )
+        st.write("This site will not see any future updates as this was an capstone project idea \n "
+                 "and may not represent the actual ITS Site for Placement & coordination.\n"
+                 "This site may go offline forever as other bigger projects will take up the resources available for hosting this site!")
 
         st.write("")  # FIX 2: Added a vertical spacer so the expander isn't hugging the text above it
 
         with st.expander("📝 View Release Notes"):
             st.markdown("""
-            **[v1.0.0-Beta] - Genesis Build**
+            **[v1.1.0-Beta] - Genesis Build**
             * Suppressed native Streamlit loading artifacts for seamless UX.
             * Removed Home Page animations for a cleaner enterprise UI.
             * Integrated dynamic Lottie UI animations for Auth forms.

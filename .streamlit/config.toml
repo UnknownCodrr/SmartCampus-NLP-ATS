@@ -17,6 +17,7 @@
 #textColor = "#F8FAFC"
 #font = "sans serif"
 
+
 #-----------------------------------------------------------------------------------------------------------------------
 #Theme - Classic
 
@@ -30,12 +31,12 @@
 #-----------------------------------------------------------------------------------------------------------------------
 #Theme - Cyber
 
-#[theme]
-#primaryColor = "#10B981"
-#backgroundColor = "#111827"
-#secondaryBackgroundColor = "#1F2937"
-#textColor = "#F9FAFB"
-#font = "monospace"
+[theme]
+primaryColor = "#10B981"
+backgroundColor = "#111827"
+secondaryBackgroundColor = "#1F2937"
+textColor = "#F9FAFB"
+font = "monospace"
 
 #-----------------------------------------------------------------------------------------------------------------------
 #Theme - Fintech
@@ -50,12 +51,12 @@
 #-----------------------------------------------------------------------------------------------------------------------
 #Theme - Dark
 
-[theme]
-primaryColor = "#5E6AD2"
-backgroundColor = "#0A0A0A"
-secondaryBackgroundColor = "#171717"
-textColor = "#EDEDED"
-font = "sans serif"
+#[theme]
+#primaryColor = "#5E6AD2"
+#backgroundColor = "#0A0A0A"
+#secondaryBackgroundColor = "#171717"
+#textColor = "#EDEDED"
+#font = "sans serif"
 
 #-----------------------------------------------------------------------------------------------------------------------
 

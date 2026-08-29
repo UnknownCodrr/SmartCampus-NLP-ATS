@@ -66,7 +66,7 @@ def render_footer():
             "A placement portal designed to bridge the gap between student skills and industry requirements using Natural Language Processing."
         )
         st.write("This site will not see any future updates as this was an capstone project idea \n "
-                 "and does not represent the actual ITS Site for Placement & coordination.\n"
+                 "and doesn't represent the actual ITS Site for Placement & coordination.\n"
                  "This site may go offline forever as other bigger projects will take up the resources available for hosting this site!")
 
         st.write("")  # FIX 2: Added a vertical spacer so the expander isn't hugging the text above it

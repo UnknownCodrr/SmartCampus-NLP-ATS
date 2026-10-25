@@ -1,3 +1,4 @@
+#NOTE:- THE APP HAS BEEN SHUTDOWN AS INFORMED BEFOREHAND, USE REPO IF U NEED
 # SmartCampus: NLP-Driven Placement & Resume Matcher
 
 🚀 **[Experience the Live Platform Here](https://smartcampus-its.streamlit.app)**

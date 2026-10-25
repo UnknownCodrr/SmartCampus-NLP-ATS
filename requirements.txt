@@ -5,7 +5,7 @@ plotly
 mysql-connector-python
 requests
 pdfplumber
-spacy
+spacy==3.7.4
 streamlit-lottie
 python-dotenv
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
